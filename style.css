@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto; */
+
+}
+
+header nav ul {
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-flex;
+    font-size: 20px;
+    margin-right: 8vw;
+    margin-top: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: red;
+    font-weight: 900;
+}
+
+header nav {
+    display: flex;
+}
+
+.logo {
+    /* display: flex;
+    align-items: center; */
+}
+
+.logo img {
+    width: 52px;
+}
+
+nav ul img {
+    width: 52px;
+    height: 52px;
+}
+
+.container {
+    min-height: calc( 100vh - 15vh - 15vh );
+}

@@ -1,0 +1,42 @@
+.text-centre{
+text-align: center;
+font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  
+}
+@keyframes maaz {
+    0%{
+        width: 600px;
+    }50%{
+        width: 580px;
+    }100%{
+        width: 700px;
+    }
+}
+@keyframes lion {
+    0%{
+        height: 100px;
+    }50%{
+        width: 300px ;
+    }100%{
+        height: 200px;
+    } 
+}
+nav ul .search input:hover{
+    border: 2px solid green;
+    animation: maaz 1s ease-out 0s infinite forwards;
+
+}nav ul img:hover{
+    animation: lion 1s ease-in-out 0s infinite forwards;
+}footer p:hover{
+text-transform: uppercase;
+color: aqua;
+}nav ul .search input{
+   width: 500px;
+   height: 30px;
+}nav ul .search {
+    display: flex;
+    align-items: center;
+    
+
+}
